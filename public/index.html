@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<title>Alarm Clock</title>
+	<meta charset='UFT-8' name='viewport' content='width=device-width, initial=scale=1.0'>
+	<link rel='stylesheet' type='text/css' href='CssAlaram.css'>
+</head>
+
+<body>
+	<div id='main-container'>
+		<h2 id='clock'></h2>
+		<div id='alarm-container'>
+			<label>
+				<div>
+					<select id='alarmhrs'></select>
+				</div>
+			</label>
+			<label>
+				<div>
+					<select id='alarmmins'></select>
+				</div>
+			</label>
+			<label>
+				<div>
+					<select id='alarmsecs'></select>
+				</div>
+			</label>
+			<label>
+				<div>
+					<select id="ampm">
+						<option value="AM">AM</option>
+						<option value="PM">PM</option>
+					</select>
+				</div>
+			</label>
+			<button id='setButton'>Set Alarm</button>
+			<div id="alarms-list">
+				<p>Alarms</p>
+				<div id="alarmDiv">
+					<div class="alarmContainer">
+						<p class="alarmText"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src='JsAlarm.js'></script>
+</body>
+
+</html>
